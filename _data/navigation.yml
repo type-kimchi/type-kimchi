@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "소시민 A Blog"
+    url: "https://type-kimchi.github.io/type-kimchi/" # 클릭시 이동할 URL
+  # - title: "Category"
+  #   url: /Categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
