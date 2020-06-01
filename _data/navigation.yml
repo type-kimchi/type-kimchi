@@ -1,12 +1,31 @@
 # main links
 main:
-  - title: "소시민 A Blog"
-    url: "https://type-kimchi.github.io/type-kimchi/" # 클릭시 이동할 URL
-  # - title: "Category"
-  #   url: /Categories/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: "/about/"
+  - title: "Category"
+    url: "/categories/"
+
+
+
+# 블로그 만들기 포스트 사이드바
+sidebar-blogging:
+  - title: "블로그를 만들자!"
+
+  - title: "참고 코드"
+    children:
+      - title: "_config.yml 설정하기"
+        url: "/blogging/config-yml/"
+      - title: "블로그에서 사용하는 문법 정리"
+        url: "/blogging/Elements/"
+        
+# 워게임 포스트 사이드바
+sidebar-wargame:
+  - title: "Web"
+    children:
+    - title: "webhacking.kr"
+      url: "/tags/#webhackinag-kr"
+      
+  - title: "System"
+    children:
+    - title: "pwnable.kr"
+      url: "/tags/#pwnable-kr"
