@@ -1,85 +1,47 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2020-05-01T10:15:22-04:00
+excerpt: "About Me"
+search: true
+
+last_modified_at: 2020-05-25T06:22:00+09:00
 toc: true
----
-
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
-
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
-
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
-
-## Notable Features
-
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
-
-## Demo Pages
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
-
-For even more demo pages check the [posts archive][year-archive].
-
-[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ "" | relative_url }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ "/recipes/chocolate-chip-cookies/" | relative_url }}
-[categories-archive]: {{ "/categories/" | relative_url }}
-[tags-archive]: {{ "/tags/" | relative_url }}
-[year-archive]: {{ "/year-archive/" | relative_url }}
 
 ---
 
-## Credits
 
-### Icons + Demo Images:
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
+{% gist imreplay/a612c451ee371f3748ccbdfda8df2576 %}
+ 
 
-### Other:
+## Education
+ - 목포대학교 정보보호학과 상황기반 모바일 인증 알고리즘 연구실 학부연구생(2015~)
+ - 목포대학교 정보보호학과 정보보호 동아리 SecuMaster 부회장 (2016)
+ - 대학정보보호동아리연합회 KUCIS 호남권역 운영진(2016)
+ 
+ - 목포대학교 정보보호페스티벌 해킹대회 대상(2015,2016)
+ - 국군사이버사령부 주관 해킹방어대회 화이트햇콘테스트 참가(2015)
+ - 코드게이트 국제해킹방어대회 대학생부 본선 진출(2016)
+ - KISA주관 해킹방어대회 HDCON 참가(2016)
+ - 목포대학교 정보보호페스티벌 해킹대회 운영 및 문제 출제(2019)
+ - 목포대학교 정보보호영재교육원 해킹대회 운영 및 문제 출제(2019)
+ 
+ 
+ 
+ - 스마트미디어학회 추계학술대회 우수논문상 수상(2019)
+ 
+ - KUCIS 호남권역 학술세미나 참가(2015)
+ - KUCIS 하계워크숍 참가(2015)
+ - KUCIS 서울/경기/강원권역 학술세미나 참가 및 운영(2016)
+ - KUCIS 충청권역 학술세미나 참가 및 운영(2016)
+ - KUCIS 호남권역 학술세미나 참가 및 운영(2016)
+ - KUCIS 영남권역 학술세미나 참가 및 운영(2016)
+ - KUCIS 10주년기념 하계워크숍 참가 및 운영(2016)
+ 
+ - '한국인터넷진흥원 호남정보보호지원센터 ITㆍ정보보호 교육' 14시간 수료(2015)
+ - 한국인터넷진흥원 주관 '운영체제 보안실무교육(16h)','네트워크 보안(16h)','정보시스템운영을위한 네트워크패킷분석 교육(24h)', '모바일 앱 취약점 분석 교육(16h)', '무선 네트워크 특강(2h)' 수료(2016)
+ - 호남 정보보호 컨퍼런스, 인공지능과 정보보호의 융합 교육 5시간 이수(2019)
+ 
 
-- [Jekyll](https://jekyllrb.com/)
-- [jQuery](https://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Lunr](http://lunrjs.com)
 
----
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+<div class="fb-comments" data-href="https://imreplay.com/about" data-numposts="5"></div>
